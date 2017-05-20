@@ -9,7 +9,7 @@ Ejecutar primero temporizador.R para comenzar la descarga periodica de datos, lu
  
 Uso:
 
-    > python csv_to_osc.py file_name col_num osc_host osc_port osc_route send_period, get_period
+    > python csv_to_osc.py file_name col_num osc_host osc_port osc_route send_period get_period
 Ejemplo:
 
     > python csv_to_osc.py sismos.csv 4 192.168.0.12 8000 /profundidad/kms 0.1 60
