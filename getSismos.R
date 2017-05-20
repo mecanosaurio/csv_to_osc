@@ -1,0 +1,5 @@
+library(rvest)
+#setwd("E:\\SKETCHBOOK\\python\\utils")
+html = read_html("http://www.ssn.unam.mx/sismicidad/ultimos/")
+tab <- html %>% html_nodes("table") %>% html_table()
+write.csv(tab, "sismos.csv")

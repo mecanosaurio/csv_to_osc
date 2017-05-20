@@ -1,0 +1,33 @@
+Loading required package: xml2
+Error in file(file, ifelse(append, "a", "w")) : 
+  no se puede abrir la conexión
+Calls: write.csv -> eval.parent -> eval -> eval -> write.table -> file
+Además: Warning message:
+In file(file, ifelse(append, "a", "w")) :
+  no fue posible abrir el archivo 'sismos.csv': Permission denied
+Ejecución interrumpida
+Loading required package: xml2
+Error in file(file, ifelse(append, "a", "w")) : 
+  no se puede abrir la conexión
+Calls: write.csv -> eval.parent -> eval -> eval -> write.table -> file
+Además: Warning message:
+In file(file, ifelse(append, "a", "w")) :
+  no fue posible abrir el archivo 'sismos.csv': Permission denied
+Ejecución interrumpida
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
+Loading required package: xml2
