@@ -1,4 +1,4 @@
-*CSV_to_OSC*
+**CSV_to_OSC**
 
 Herramientas en python y R para crear un stream osc con los datos servicio sismológico nacional, recuperados periodicamente del portal http://www.ssn.unam.mx/sismicidad/ultimos/.
 Ejecutar primero temporizador.R para comenzar la descarga periodica de datos, luego csv_to_osc.py para crear el stream.
