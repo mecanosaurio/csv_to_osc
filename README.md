@@ -18,6 +18,7 @@ El script enviara los datos de la quinta columna (los indices comienzan en 0) de
 
 
 *UPDATE*
+
 4. sismosc.py :: genera un stream osc con los datos del url http://www.ssn.unam.mx/sismicidad/ultimos/
 
     > python sismosc.py 0 192.168.1.74 8000 /magnitud/grados 0.5 60
