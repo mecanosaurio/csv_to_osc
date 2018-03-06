@@ -1,4 +1,4 @@
-**CSV_to_OSC**
+**sismológico_OSC**
 
 Herramientas en python y R para crear un stream osc con los datos servicio sismológico nacional, recuperados periodicamente del portal http://www.ssn.unam.mx/sismicidad/ultimos/.
 Ejecutar primero temporizador.R para comenzar la descarga periodica de datos, luego csv_to_osc.py para crear el stream.
@@ -15,3 +15,10 @@ Ejemplo:
     > python csv_to_osc.py sismos.csv 4 192.168.0.12 8000 /profundidad/kms 0.1 60
 
 El script enviara los datos de la quinta columna (los indices comienzan en 0) del archivo sismos.csv como mensajes osc con la ruta /profundidad/kms al puerto 8000 de la dirección ip 192.168.0.12, cada 0.1 segundos, y recarga los datos del archivo cada 60 segundos.
+
+
+*UPDATE*
+4. sismosc.py :: genera un stream osc con los datos del url http://www.ssn.unam.mx/sismicidad/ultimos/
+
+    > python sismosc.py 0 192.168.1.74 8000 /magnitud/grados 0.5 60
+  
